@@ -43,6 +43,12 @@ module/pc/page/czzz-pc-page-indexnow-auto-submit
 - 自动提交依赖 LightSNS 的事件与 Worker 消费链路，正常情况下会有短暂延迟。
 - 如果出现 HTTP 422，请优先检查 KeyLocation 是否公开可访问、内容是否与当前 Key 一致、提交 URL 是否属于同一站点。
 
+## 作者信息
+
+作者：云遮天  
+Telegram：[@czzzru](https://t.me/czzzru)  
+网站：[https://czzz.ru](https://czzz.ru)
+
 ## 开源协议
 
 本项目使用 GPL-3.0 协议开源，详见 `LICENSE`。
