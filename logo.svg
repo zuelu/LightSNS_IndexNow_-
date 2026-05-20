@@ -1,0 +1,37 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="12" y="12" width="136" height="136" rx="32" fill="url(#bg)"/>
+<rect x="22" y="22" width="116" height="116" rx="24" fill="url(#panel)" fill-opacity="0.92"/>
+<path d="M45 56C45 49.3726 50.3726 44 57 44H94C100.627 44 106 49.3726 106 56V106C106 112.627 100.627 118 94 118H57C50.3726 118 45 112.627 45 106V56Z" fill="white" fill-opacity="0.96"/>
+<path d="M59 61H87" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<path d="M59 79H82" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<path d="M59 97H76" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="105" cy="58" r="21" fill="url(#pulse)"/>
+<path d="M103.5 45L92 61H103L99.5 73L117 53H106L111 45H103.5Z" fill="white"/>
+<path d="M57 119C72.5 96.5 96.5 88.5 123 88.5" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+<path d="M112 76L128 88.5L112 101" stroke="url(#flow)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="57" cy="119" r="8" fill="#0F172A"/>
+<circle cx="88" cy="97" r="7" fill="#2563EB"/>
+<circle cx="123" cy="88.5" r="8" fill="#14B8A6"/>
+<circle cx="106" cy="111" r="16" fill="#DCFCE7"/>
+<path d="M98.5 111L103.5 116L114.5 105" stroke="#16A34A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="bg" x1="21" y1="20" x2="139" y2="144" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0F172A"/>
+<stop offset="0.48" stop-color="#2563EB"/>
+<stop offset="1" stop-color="#10B981"/>
+</linearGradient>
+<linearGradient id="panel" x1="32" y1="28" x2="126" y2="132" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.34"/>
+<stop offset="1" stop-color="white" stop-opacity="0.1"/>
+</linearGradient>
+<linearGradient id="pulse" x1="88" y1="40" x2="124" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#38BDF8"/>
+<stop offset="1" stop-color="#1D4ED8"/>
+</linearGradient>
+<linearGradient id="flow" x1="55" y1="117" x2="128" y2="83" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0F172A"/>
+<stop offset="0.48" stop-color="#2563EB"/>
+<stop offset="1" stop-color="#14B8A6"/>
+</linearGradient>
+</defs>
+</svg>
