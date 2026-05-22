@@ -1,19 +1,9 @@
 <?php
 
-ob_start();
-
 require_once dirname(__DIR__, 4) . DIRECTORY_SEPARATOR . 'bootstrap.php';
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'indexnow_lib.php';
 
 use LightSNS\Foundation\Site;
-
-if (function_exists('czzz_sitemap_clear_output_buffers')) {
-    czzz_sitemap_clear_output_buffers();
-} else {
-    while (ob_get_level() > 0) {
-        ob_end_clean();
-    }
-}
 
 $summary = czzz_indexnow_summary();
 $verification = is_array($summary['verification'] ?? null) ? $summary['verification'] : [];

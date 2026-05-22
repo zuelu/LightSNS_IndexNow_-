@@ -16,6 +16,7 @@ $routePath = '/indexnow-auto-submit';
 PageRouter::add('module_' . czzz_indexnow_module_id(), [
     'path' => $routePath,
     'file' => czzz_indexnow_module_dir() . '/page.php',
+    'layout' => 'raw',
     'seo' => [
         'title' => 'IndexNow 自动提交',
         'description' => 'IndexNow Key、验证文件、URL 提交与历史记录管理。',
