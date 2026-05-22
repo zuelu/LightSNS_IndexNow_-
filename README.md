@@ -50,3 +50,13 @@ module/pc/page/czzz-pc-page-indexnow-auto-submit
 ## 开源协议
 
 本项目使用 GPL-3.0 协议开源，详见 `LICENSE`。
+
+## 作者信息
+
+作者：云遮天
+
+Telegram：[@czzzru](https://t.me/czzzru)
+
+QQ：80795151
+
+网站：[https://czzz.ru](https://czzz.ru)
