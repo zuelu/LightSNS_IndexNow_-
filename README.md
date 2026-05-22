@@ -42,9 +42,11 @@ module/pc/page/czzz-pc-page-indexnow-auto-submit
 - Bing 站长后台通常不会实时显示插件侧的批量或自动提交按钮，它主要显示已提交 URL 的结果列表。
 - 自动提交依赖 LightSNS 的事件与 Worker 消费链路，正常情况下会有短暂延迟。
 - 如果出现 HTTP 422，请优先检查 KeyLocation 是否公开可访问、内容是否与当前 Key 一致、提交 URL 是否属于同一站点。
-- 插件不会携带本站配置文件、数据库账号、GitHub Token 或其它站点敏感信息。
+
+## 版本更新
+
+版本更新说明见 [RELEASES.md](RELEASES.md)。
 
 ## 开源协议
 
 本项目使用 GPL-3.0 协议开源，详见 `LICENSE`。
-
